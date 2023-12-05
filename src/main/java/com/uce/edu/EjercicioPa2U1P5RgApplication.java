@@ -57,6 +57,8 @@ public class EjercicioPa2U1P5RgApplication implements CommandLineRunner {
 		this.iMatriculaService.matricularVehiculo("1750888404", "PXQ0678");
 		
 		System.out.println(this.iMatriculaService.seleccionar("1750888404"));
+		
+		
 	}
 
 }
